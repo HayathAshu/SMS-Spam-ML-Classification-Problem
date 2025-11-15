@@ -79,3 +79,26 @@ Each model is evaluated using:
 - **Confusion Matrix**
 
 ---
+
+## 📦 Dataset Source
+
+The dataset used in this project is taken from Kaggle:
+
+📌 **Kaggle Dataset:**  
+https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+
+It contains a collection of SMS messages labeled as **spam** or **ham**, making it ideal for text-based classification.
+
+---
+
+## 📥 Download Dataset Using KaggleHub
+
+You can automatically download the dataset using the following code:
+
+```python
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("uciml/sms-spam-collection-dataset")
+
+print("Path to dataset files:", path)
